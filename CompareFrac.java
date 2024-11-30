@@ -17,7 +17,7 @@ class Solution {
         
         if (ans1 == ans2) return "equal";
         else if (ans1 > ans2) return fraction[0];
-        else return fraction[1];
+        else return fraction[1];  
     }
 }
 
