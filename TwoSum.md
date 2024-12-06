@@ -1,4 +1,5 @@
 java
+java
 import java.util.Scanner;
 
 class Solution {
@@ -42,4 +43,5 @@ public class TwoSum {
         scanner.close();
     }
 }
+
 

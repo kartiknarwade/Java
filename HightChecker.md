@@ -1,4 +1,5 @@
 java
+java
 import java.util.*;
 
 class Solution{
@@ -36,4 +37,5 @@ public class HightChecker {
         sc.close();
     }
 }
+
 

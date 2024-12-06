@@ -1,4 +1,5 @@
 java
+java
 import java.util.Scanner;
 
 class Solution {
@@ -37,4 +38,5 @@ public class CompareFrac {
         sc.close();
     }
 }
+
 

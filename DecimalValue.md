@@ -1,4 +1,5 @@
 java
+java
 import java.util.Scanner;
 
 class ListNode {
@@ -55,4 +56,5 @@ public class DecimalValue {
         sc.close();
     }
 }
+
 

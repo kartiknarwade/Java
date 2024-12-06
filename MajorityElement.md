@@ -1,4 +1,5 @@
 java
+java
 import java.util.Scanner;
 
 class Solution {
@@ -37,3 +38,4 @@ public class MajorityElement {
         sc.close();
     }
 }
+

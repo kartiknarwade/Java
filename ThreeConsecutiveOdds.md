@@ -1,4 +1,5 @@
 java
+java
 import java.util.Scanner;
 
 class ThreeConsecutiveOdds {
@@ -34,3 +35,4 @@ class Solution {
         return false;
     }
 }
+
