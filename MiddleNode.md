@@ -1,3 +1,4 @@
+java
 import java.util.Scanner;
 
 class ListNode {
@@ -40,3 +41,4 @@ public class MiddleNode {
         sc.close();
     }
 }
+

@@ -1,16 +1,22 @@
+java
 import java.util.Scanner;
 
 class Solution {
-    public int singleNumber(int[] nums) {
-        int result = 0;
-        for (int num : nums) {
-            result ^= num;
+    public int majorityElement(int[] nums) {
+        int m = 0, cnt = 0;
+        for (int x : nums) {
+            if (cnt == 0) {
+                m = x;
+                cnt = 1;
+            } else {
+                cnt += m == x ? 1 : -1;
+            }
         }
-        return result;
+        return m;
     }
 }
 
-public class SingleNumber {
+public class MajorityElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -24,9 +30,9 @@ public class SingleNumber {
         }
 
         Solution solution = new Solution();
-        int result = solution.singleNumber(nums);
+        int result = solution.majorityElement(nums);
 
-        System.out.println("The single number is: " + result);
+        System.out.println("The majority element is: " + result);
 
         sc.close();
     }

@@ -1,3 +1,4 @@
+java
 import java.util.Scanner;
 
 class Solution {
@@ -29,3 +30,4 @@ public class Palindrome{
         sc.close();
     }
 }
+

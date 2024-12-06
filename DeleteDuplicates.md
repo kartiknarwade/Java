@@ -1,3 +1,4 @@
+java
 import java.util.Scanner;
 
 class ListNode {
@@ -50,3 +51,4 @@ public class DeleteDuplicates {
         sc.close();
     }
 }
+
